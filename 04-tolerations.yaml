@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tolerations2
+  labels:
+    purpose: "tolerations-demo"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
