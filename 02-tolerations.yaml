@@ -6,7 +6,7 @@ metadata:
     purpose: "tolerations-demo"
 spec:
   nodeSelector:
-    topology.kubernetes.io/zones: us-east-1d
+    topology.kubernetes.io/zone: us-east-1d
   containers:
   - name: nginx
     image: nginx
